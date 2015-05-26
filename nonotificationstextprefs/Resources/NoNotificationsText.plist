@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+    <key>items</key>
+
+    <array>
+
+	<dict>
+	    <key>cell</key>		<string>PSGroupCell</string>
+	    <key>footerCellClass</key>	<string>NoNotificationsTextCustomCell</string>
+	</dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.nonotificationstextprefs</string>
+            <key>key</key>              <string>enabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.nonotificationstextprefs/settingschanged</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSEditTextCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.nonotificationstextprefs</string>
+            <key>key</key>              <string>text</string>
+            <key>label</key>            <string>Text:</string>
+            <key>PostNotification</key> <string>ccom.tweaksbylogan.nonotificationstextprefs/settingschanged</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>save</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+	    <key>defaults</key>         <string>com.tweaksbylogan.nonotificationstextprefs</string>
+            <key>label</key>            <string>Save</string>
+        </dict>
+
+	<dict>
+	    <key>cell</key>		<string>PSGroupCell</string>
+	</dict>
+
+	<dict>
+	    <key>action</key>		<string>followLogan</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+	    <key>defaults</key>         <string>com.tweaksbylogan.nonotificationstextprefs</string>
+	    <key>label</key>            <string>Follow @logandev22 on Twitter</string>
+        </dict>
+
+	<dict>
+	    <key>action</key>		<string>followLiam</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+	    <key>defaults</key>         <string>com.tweaksbylogan.nonotificationstextprefs</string>
+	    <key>label</key>            <string>Follow @iamHoenir on Twitter</string>
+        </dict>
+
+    </array>
+
+    <key>title</key>
+
+    <string>NoNotificationsText</string>
+
+</dict>
+
+</plist>

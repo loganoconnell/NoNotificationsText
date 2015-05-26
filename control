@@ -1,0 +1,9 @@
+Package: com.TweaksByLogan.NoNotificationsText
+Name: NoNotificationsText
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change the "No Notifications" text!
+Maintainer: Logan O'Connell
+Author: Logan O'Connell
+Section: Tweaks
