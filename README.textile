@@ -1,3 +1,0 @@
-h1. NoNotificationsText
-
-h2. Change the "No Notifications" text!
